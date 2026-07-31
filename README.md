@@ -40,10 +40,10 @@ molgen-llm-bench/
 
 | tool | model | naming |
 |---|---|---|
-| claude | Claude-Opus5 | `claude_01..10` |
-| gemini | Gemini-3.1Pro (extended) | `gemini_01..10` |
-| chatgpt | ChatGPT-GPT5.6Sol | `chatgpt_01..10` |
-| claudescience | Claude Science (Opus5) — chemistry-research-focused session | descriptive (`CyMe4-BTPhen`, ...) |
+| Claude | Opus5 | `claude_01..10` |
+| Gemini | 3.1Pro (extended) | `gemini_01..10` |
+| ChatGPT | GPT5.6Sol | `chatgpt_01..10` |
+| Claude Science | Opus5 — chemistry-research-focused session | descriptive (`CyMe4-BTPhen`, ...) |
 
 ## Reference data
 
