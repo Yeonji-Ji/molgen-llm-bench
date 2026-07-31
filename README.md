@@ -12,12 +12,26 @@ Language Models for Automated Discovery of F-Element Extractants," *JACS*
 ## Layout
 
 ```
-prompts/{prompt_id}/       system.md + user.md sent to each model
-runs/{tool}/{prompt_id}/   raw_smiles.py — SMILES extracted from that model's response
-eval/                      shared scoring script + reference data
-results/{tool}/{prompt_id}/ scored candidate_scores.csv + candidates.png per model
-results/candidate_scores_{prompt_id}.xlsx  all models combined into one workbook
+molgen-llm-bench/
+├── prompts/
+│   └── v1/
+│       ├── system.md          # system prompt sent to each model
+│       └── user.md            # user prompt sent to each model
+├── runs/
+│   └── {tool}/v1/
+│       └── raw_smiles.py      # SMILES extracted from that model's response
+├── eval/
+│   ├── score_candidates.py    # shared scoring script
+│   ├── data_list.txt          # experimental reference SMILES
+│   └── data_list_candidates.png
+└── results/
+    ├── candidate_scores_v1.xlsx   # all models combined into one workbook
+    └── {tool}/v1/
+        ├── candidate_scores.csv   # scored candidates for that model
+        └── candidates.png
 ```
+
+`{tool}` is one of `claude`, `gemini`, `chatgpt`, `claudescience`.
 
 - `prompt_id` (currently `v1`) ties a prompt version to the runs/results it produced.
 - `tool` is one of `claude`, `gemini`, `chatgpt`, `claudescience`.
