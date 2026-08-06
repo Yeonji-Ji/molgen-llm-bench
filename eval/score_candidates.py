@@ -1,5 +1,9 @@
-"""Score SMILES lists from runs/{tool}/v1/raw_smiles.py into the
-candidate_scores.csv column format, and render a 2D grid PNG per tool.
+"""Score SMILES lists from runs/{tool}/v1/design{N}/raw_smiles.py into the
+candidate_scores.csv column format, and render a 2D grid PNG per tool/design.
+
+Reference list for max/min_similarity_exp differs by design:
+  design1, design2 -> eval/data_list_all.json
+  design3, design4 -> eval/data_list.txt
 """
 import json
 import runpy
@@ -7,7 +11,6 @@ import runpy
 import pandas as pd
 from rdkit import Chem, RDLogger
 from rdkit.Chem import AllChem, Descriptors, Draw, rdMolDescriptors
-from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit import DataStructs
 from rdkit.Chem import RDConfig
 import sys, os
@@ -17,10 +20,16 @@ import sascorer
 RDLogger.DisableLog("rdApp.*")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TRIAZINE_135 = Chem.MolFromSmarts("c1ncncn1")
 FP_RADIUS, FP_BITS = 2, 2048
 
 PROMPT_ID = "v1"
+DESIGNS = [1, 2, 3, 4]
+DESIGN_REF = {
+    1: "data_list_all.json",
+    2: "data_list_all.json",
+    3: "data_list.txt",
+    4: "data_list.txt",
+}
 MODEL_VARS = {
     "claude": "SMILES_claude",
     "gemini": "SMILES_gemini",
@@ -28,19 +37,17 @@ MODEL_VARS = {
     "claudescience": "SMILES_claudescience",
 }
 NAME_VARS = {"claudescience": "NAMES_claudescience"}
-MODEL_MODULES = {
-    model: runpy.run_path(os.path.join(ROOT, "runs", model, PROMPT_ID, "raw_smiles.py"))
-    for model in MODEL_VARS
-}
-MODEL_LISTS = {model: mod[MODEL_VARS[model]] for model, mod in MODEL_MODULES.items()}
-MODEL_NAMES = {
-    model: MODEL_MODULES[model][NAME_VARS[model]] for model in NAME_VARS
-}
 
-exp_records = json.load(open(os.path.join(ROOT, "eval", "data_list.txt")))
-exp_mols = [Chem.MolFromSmiles(r["SMILES"]) for r in exp_records]
-exp_fps = [AllChem.GetMorganFingerprintAsBitVect(m, FP_RADIUS, FP_BITS) for m in exp_mols if m]
-exp_canon = {Chem.MolToSmiles(m) for m in exp_mols if m}
+
+def load_exp_reference(filename):
+    exp_records = json.load(open(os.path.join(ROOT, "eval", filename)))
+    exp_mols = [Chem.MolFromSmiles(r["SMILES"]) for r in exp_records]
+    exp_fps = [AllChem.GetMorganFingerprintAsBitVect(m, FP_RADIUS, FP_BITS) for m in exp_mols if m]
+    exp_canon = {Chem.MolToSmiles(m) for m in exp_mols if m}
+    return exp_fps, exp_canon
+
+
+REF_CACHE = {fname: load_exp_reference(fname) for fname in set(DESIGN_REF.values())}
 
 
 def ring_n_counts(mol):
@@ -60,7 +67,7 @@ def ring_n_counts(mol):
     return n_pyr, n_tz
 
 
-def score_one(smiles, fps_so_far):
+def score_one(smiles, fps_so_far, exp_fps, exp_canon):
     mol = Chem.MolFromSmiles(smiles)
     if mol is None:
         return None
@@ -84,7 +91,6 @@ def score_one(smiles, fps_so_far):
         "TPSA": round(Descriptors.TPSA(mol), 1),
         "HBD": Descriptors.NumHDonors(mol),
         "arom_N": sum(a.GetIsAromatic() and a.GetAtomicNum() == 7 for a in mol.GetAtoms()),
-        "n_triazine": len(mol.GetSubstructMatches(TRIAZINE_135)),
         "rot_bonds": Descriptors.NumRotatableBonds(mol),
         "SA_score": round(sascorer.calculateScore(mol), 2),
         "max_sim_exp": round(max_sim_exp, 3),
@@ -99,34 +105,44 @@ def score_one(smiles, fps_so_far):
     return row, fp
 
 
-for model, smiles_list in MODEL_LISTS.items():
-    names = MODEL_NAMES.get(model)
-    rows, mols_for_png, legends, fps_so_far = [], [], [], []
-    for i, smi in enumerate(smiles_list, start=1):
-        result = score_one(smi, fps_so_far)
-        if result is None:
-            print(f"[{model}] skip invalid SMILES #{i}: {smi}")
+for design in DESIGNS:
+    ref_file = DESIGN_REF[design]
+    exp_fps, exp_canon = REF_CACHE[ref_file]
+
+    for model, var in MODEL_VARS.items():
+        run_path = os.path.join(ROOT, "runs", model, PROMPT_ID, f"design{design}", "raw_smiles.py")
+        if not os.path.exists(run_path):
             continue
-        row, fp = result
-        name = names[i - 1] if names else f"{model}_{i:02d}"
-        rows.append({"name": name, **row})
-        fps_so_far.append(fp)
+        mod = runpy.run_path(run_path)
+        smiles_list = mod[var]
+        names = mod.get(NAME_VARS.get(model, ""))
 
-        mol = Chem.MolFromSmiles(row["canonical_smiles"])
-        mols_for_png.append(mol)
-        legends.append(
-            f'{name}\n{row["formula"]}  MW {row["MW"]}  cLogP {row["MolLogP"]}'
+        rows, mols_for_png, legends, fps_so_far = [], [], [], []
+        for i, smi in enumerate(smiles_list, start=1):
+            result = score_one(smi, fps_so_far, exp_fps, exp_canon)
+            if result is None:
+                print(f"[{model} design{design}] skip invalid SMILES #{i}: {smi}")
+                continue
+            row, fp = result
+            name = names[i - 1] if names else f"{model}_d{design}_{i:02d}"
+            rows.append({"name": name, **row})
+            fps_so_far.append(fp)
+
+            mol = Chem.MolFromSmiles(row["canonical_smiles"])
+            mols_for_png.append(mol)
+            legends.append(
+                f'{name}\n{row["formula"]}  MW {row["MW"]}  cLogP {row["MolLogP"]}'
+            )
+
+        df = pd.DataFrame(rows)
+        out_dir = os.path.join(ROOT, "results", model, PROMPT_ID, f"design{design}")
+        os.makedirs(out_dir, exist_ok=True)
+        csv_path = os.path.join(out_dir, "candidate_scores.csv")
+        png_path = os.path.join(out_dir, "candidates.png")
+        df.to_csv(csv_path, index=False)
+
+        img = Draw.MolsToGridImage(
+            mols_for_png, molsPerRow=3, subImgSize=(400, 400), legends=legends
         )
-
-    df = pd.DataFrame(rows)
-    out_dir = os.path.join(ROOT, "results", model, PROMPT_ID)
-    os.makedirs(out_dir, exist_ok=True)
-    csv_path = os.path.join(out_dir, "candidate_scores.csv")
-    png_path = os.path.join(out_dir, "candidates.png")
-    df.to_csv(csv_path, index=False)
-
-    img = Draw.MolsToGridImage(
-        mols_for_png, molsPerRow=3, subImgSize=(400, 400), legends=legends
-    )
-    img.save(png_path)
-    print(f"{model}: {len(rows)}/{len(smiles_list)} scored -> {csv_path}, {png_path}")
+        img.save(png_path)
+        print(f"{model} design{design}: {len(rows)}/{len(smiles_list)} scored -> {csv_path}, {png_path}")

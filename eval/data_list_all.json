@@ -1,0 +1,2657 @@
+[
+  {
+    "SMILES": "CC12CCC(c3nnc(-c4cccc(-c5nnc6c(n5)C5(C)CCC6C5(C)C)n4)nc31)C2(C)C",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)(C)c1cc(-c2cc(C(C)(C)C)cc(-c3nnc4c(n3)C(C)(C)CCC4(C)C)n2)nc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC12CCC(c3nnc(-c4cccc(-c5cccc(-c6nnc7c(n6)C6(C)CCC7C6(C)C)n5)n4)nc31)C2(C)C",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCc1nnc(-c2cccc(-c3nnc(CCC)c(CCC)n3)n2)nc1CCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC1(C)CCC(C)(C)c2nc(-c3cccc(-c4cccc(-c5nnc6c(n5)C(C)(C)CCC6(C)C)n4)n3)nnc21",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "Cc1cc(-c2cc(C)cc(-c3nnc4c(n3)C(C)(C)CCC4(C)C)n2)nc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCCC)c(CCCCC)n4)n3)n2)nc1CCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(=O)N(CC(CC)CCCC)CC(CC)CCCC)CC(=O)N(CC(CC)CCCC)CC(CC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)(C)Cc1cc(-c2cccc(-c3cc(CC(C)(C)C)[nH]n3)n2)n[nH]1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCNC(=O)c1cc(C(=O)NCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)cc(C(=O)NCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCCCC(C(=O)N(C)CCCC)C(=O)N(C)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)CN(CC(C)C)C(=O)CP(=O)(CC(C)CC(C)(C)C)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(CC)CCCC)C(=O)CN(CC(=O)N(CC(CC)CCCC)CC(CC)CCCC)CC(=O)N(CC(CC)CCCC)CC(CC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CC(CC)CCCC)C(=O)CN(CC(=O)N(CC(CC)CCCC)CC(CC)CCCC)CC(=O)N(CC(CC)CCCC)CC(CC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(CCCCCCCCCCCC)C(=O)COCC(=O)N(CCCCCCCCCCCC)CCCCCCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC1(C)CCC(C)(C)c2nc(-c3ccc4ccc5ccc(-c6nnc7c(n6)C(C)(C)CCC7(C)C)nc5c4n3)nnc21",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)CC(=O)NCc1cccc(CNC(=O)CC(=O)NCCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)CC(=O)NCc1cccc(CNC(=O)CC(=O)N(C)CCCCCCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCOP(=O)(CCCCC)OCCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "S=P(S)(c1ccccc1Cl)c1ccccc1Cl",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC1(C)OC(C)(C)c2nc(-c3cccc(-c4cccc(-c5nnc6c(n5)C(C)(C)OC6(C)C)n4)n3)nnc21",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CN(CC(=O)N(CCCCCCCC)CCCCCCCC)CC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC1(C)SC(C)(C)c2nc(-c3cccc(-c4cccc(-c5nnc6c(n5)C(C)(C)SC6(C)C)n4)n3)nnc21",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCOCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)COCC(=O)NCCCCCNC(=O)COCC(=O)N(CCCC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCCCCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCCCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)COCC(=O)NCCCCCCNC(=O)COCC(=O)N(CCCC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)C(CCCCCCC(C(=O)NCCCC)C(=O)NCCCC)C(=O)NCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCCCCCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)COCC(=O)N(C)Cc1cccc(CN(C)C(=O)COCC(=O)N(C)CCCCCCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)CCN(CCC(C)C)C(=O)COCC(=O)NCc1cccc(CNC(=O)COCC(=O)N(CCC(C)C)CCC(C)C)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCOc1cc(CNC(=O)COCC(=O)N(CCCC)CCCC)cc(CNC(=O)COCC(=O)N(CCCC)CCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CP(=O)(CC(=O)N(CC(C)C)CC(C)C)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)CCCCCP(=O)(CC(=O)N(CC(C)C)CC(C)C)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(CC)C(=O)c1ccc2ccc3cccnc3c2n1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)c1ccc2ccc3cccnc3c2n1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)CN(CC(C)C)C(=O)CP(=O)(C1CCCCC1)C1CCCCC1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)C(C)OC(C(=O)N(CCCCCCCC)CCCCCCCC)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCC(C)Oc1cc(CNC(=O)COCC(=O)N(CCCC)CCCC)cc(CNC(=O)COCC(=O)N(CCCC)CCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCP(=O)(CC(=O)N(CC(C)C)CC(C)C)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCP(=O)(CCCCCC)CC(=O)N(CC(C)C)CC(C)C",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)COCC(=O)NCc1cccc(CNC(=O)COCC(=O)N(CCCC)CCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)COCC(=O)NCc1cccc(CNC(=O)COCC(=O)N(C)CCCCCCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCP(=O)(CCCCCC)CC(=O)N(CCCC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCOc1cc(CNC(=O)COCC(=O)N(CCCC)CCCC)cc(CNC(=O)COCC(=O)N(CCCC)CCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCP(=O)(CCCCCC)CC(=O)N(CC)CC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CNCP(=O)(OCCCC)OCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)C(CCCCCC)(OCC)C(=O)N(C)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CNCP(=O)(CCCC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)c1nnc(-c2cccc(-c3nnc(C(C)C)c(C(C)C)n3)n2)nc1C(C)C",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCOP(=S)(CP(=S)(OCCCC)OCCCC)OCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)COCC(=O)N(CCCCCC)CCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)COCC(=O)N(CCCC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCOCCP(=O)(CC(=O)N(CC(C)C)CC(C)C)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)COCC(=O)N(C)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COC(C(=O)N(CCCCCCCC)CCCCCCCC)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COC(C)C(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(CCCCCCCCCCCC)C(=O)COCCOCC(=O)N(CCCCCCCCCCCC)CCCCCCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCP(=O)(CCCC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCCOCCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCc1ccc(CNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)cc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCc1cccc(CNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(CC)CCCC)C(=O)COCC(=O)N(CC(CC)CCCC)CC(CC)CCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCN(CCCCC)C(=O)COCC(=O)N(CCCCC)CCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCc1c(CC)c(CCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)c(CC)c(CCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)c1CC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCCOc1cc(OCCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)cc(OCCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCP(=O)(CC(=O)N(CCCC)CCCC)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)C1CCC(C(=O)N(CCCCCCCC)CCCCCCCC)O1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCc1nnc(-c2cccc(-c3cccc(-c4nnc(CC)c(CC)n4)n3)n2)nc1CC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCN(CCCCCCCCCC)C(=O)COCC(=O)N(CCCCCCCCCC)CCCCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(C)C(=O)C1CC(OC)CC(C(=O)N(C)CCCCCCCCCCCC)O1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCP(=O)(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)C(Cc1cccc(CC(C(=O)NCCCC)C(=O)NCCCC)c1)C(=O)NCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCC(CC)CP(=O)(CC(=O)N(CC)CC)CC(CC)CC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)CC(=O)Nc1ccccc1NC(=O)CC(=O)NCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)c1ccc2ccc3cccnc3c2n1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCOP(=S)(COCP(=S)(OCCCC)OCCCC)OCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)C(CC)C(=O)Nc1ccc(NC(=O)C(CC)C(=O)NCCCC)cc1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)C(CC)C(=O)Nc1ccccc1NC(=O)C(CC)C(=O)NCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)CC(=O)Nc1cccc(NC(=O)CC(=O)NCCCC)c1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCP(=O)(OCCCC)OCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(C)C(=O)CC(=O)Nc1cccc(NC(=O)CC(=O)N(C)CCCC)c1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)CC(=O)Nc1ccc(NC(=O)CC(=O)N(C)CCCCCCCC)cc1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)CC(=O)Nc1ccc(NC(=O)CC(=O)NCCCC)cc1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCNC(=O)C(CC)C(=O)Nc1cccc(NC(=O)C(CC)C(=O)NCCCC)c1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=S)c1ccc2ccc3ccc(C(=S)N(CCCCCCCC)CCCCCCCC)nc3c2n1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)C(CCCCCC(C(=O)NCCCC)C(=O)NCCCC)C(=O)NCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCP(=S)(CCCC)CP(=S)(CCCC)CCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)C(CCCCCC(C(=O)NCCCCCCCC)C(=O)NCCCCCCCC)C(=O)NCCCCCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCOP(=O)(CCC(=O)N(CC)CC)OCCCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)C(CCCCCCC(C(=O)NCCCCCCCC)C(=O)NCCCCCCCC)C(=O)NCCCCCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCP(=O)(CCCCCC)CC(=O)N(C(C)CC)C(C)CC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC1(C)CCC(C)(C)c2nc(-c3cccc(-c4cccc(-c5ccccn5)n4)n3)nnc21",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CN(CC(=O)N(CCCCCCCC)CCCCCCCC)Cc1ccccc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)c1cnccn1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "Cc1ccn(-c2cccc(-n3ccc(C)n3)n2)n1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)c1cc(OC)ccn1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)c1ccc(C(=O)N(CCCCCCCC)CCCCCCCC)s1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=S)c1ccc(C(=S)N(CCCCCCCC)CCCCCCCC)s1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CC(=O)N(CCCCCCCC)CCCCCCCC)CC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCOCc1cc(-n2cccn2)nc(-n2cccn2)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "Cc1cc(C)n(-c2cncc(-n3nc(C)cc3C)n2)n1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "S=P(COCP(=S)(c1ccccc1)c1ccccc1)(c1ccccc1)c1ccccc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCOCc1cc(-n2ccc(C)n2)nc(-n2ccc(C)n2)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "Cc1ccn(-c2cncc(-n3ccc(C)n3)n2)n1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)c1cc(Cl)ccn1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)c1ccc(C(=O)N(CCCCCCCC)CCCCCCCC)o1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)(C)c1ccc(NC(=O)c2cnccn2)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "c1cc(-n2cccn2)nc(-n2cccn2)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCCCCCn1cc(-c2cc(CC(=O)O)cc(-c3cn(CCCCCCCC)nn3)n2)nn1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)c1ccc2ccccc2n1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(c1ccccc1)c1ccc2ccccc2n1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "Cc1cc(C)n(-c2cccc(-n3nc(C)cc3C)n2)n1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCCCOc1cc(C(=O)Nc2ccc(C(C)(C)C)cc2)nc(C(=O)Nc2ccc(C(C)(C)C)cc2)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CN(CC(=O)N(CCCCCCCC)CCCCCCCC)C(C)=O",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CN(CC(=O)N(CCCCCCCC)CCCCCCCC)c1ccccc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCOc1cc(C(=O)N(C)c2ccc(C(C)(C)C)cc2)nc(C(=O)N(C)c2ccc(C(C)(C)C)cc2)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCOP(=S)(COCP(=S)(OCC)OCC)OCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCNCC(=O)c1cccc(C(=O)CNCCCCCCCCCCCC)n1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCNC(=O)c1cc(OC)ccn1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCP(=S)(CCCC)COCP(=S)(CCCC)CCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CNCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)(C)c1ccc(NCC(=O)c2cccc(C(=O)CNc3ccc(C(C)(C)C)cc3)n2)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CCOCCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CN(C(=O)COCC(=O)N(C)c1ccccc1)c1ccccc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(CC)CCCC)C(=O)CCOCCC(=O)N(CC(CC)CCCC)CC(CC)CCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)(C)c1ccc(NC(=O)c2cc(=O)cc(C(=O)Nc3ccc(C(C)(C)C)cc3)o2)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)c1ccc2ccc3ccc(C(=O)N(CCCCCCCC)CCCCCCCC)nc3c2n1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)CC(=O)NCc1ccccc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)CC(=O)NCc1ccccc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCNC(=O)CC(=O)NCCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCNC(=S)CC(=S)NCc1ccc(CNC(=S)CC(=S)NCCCC)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=S)CC(=S)NCc1cccc(CNC(=S)CC(=S)NCCCC)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCNC(=O)c1cc(=O)cc(C(=O)NCCCCCCCCCCCC)o1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=S)C(CC)C(=S)Nc1ccc(NC(=S)C(CC)C(=S)NCCCC)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)CC(=O)N(C)CCCCCCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC1(C)CCC(C)(C)c2nc(-c3cccc(-c4cccc(-c5cccc(-c6nnc7c(n6)C(C)(C)CCC7(C)C)n5)n4)n3)nnc21",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=S)C(CC)C(=S)Nc1ccccc1NC(=S)C(CC)C(=S)NCCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=S)CC(=S)Nc1cccc(NC(=S)CC(=S)NCCCC)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=S)C(CC)C(=S)NCc1ccc(CNC(=S)C(CC)C(=S)NCCCC)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=S)C(CC)C(=S)Nc1cccc(NC(=S)C(CC)C(=S)NCCCC)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCN(CCC)C(=O)COCC(=O)N(CCC)CCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCP(=O)(CCCCCC)CC(=O)CC(C)C",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)C(Cc1cccc(CC(C(=O)NCCCCCCCC)C(=O)NCCCCCCCC)c1)C(=O)NCCCCCCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1cccc(C(=O)N(CC)c2ccccc2C)n1)c1ccccc1C",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)C(CC)C(=O)NCc1ccc(CNC(=O)C(CC)C(=O)NCCCC)cc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCNC(=O)CC(=O)NCc1ccc(CNC(=O)CC(=O)NCCCC)cc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1cccc(C(=O)N(CC)c2ccc(C)cc2)n1)c1ccc(C)cc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCOP(=O)(CCCCCC)CC(=O)N(CC)CC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)[C@H](CCC)O[C@H](CCC)C(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCNC(=O)CC(=O)NCc1cccc(CNC(=O)CC(=O)NCCCCC)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "O=C(COCC(=O)N(c1ccccc1)c1ccccc1)N(c1ccccc1)c1ccccc1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1cccc(C(=O)N(CC)c2cccc(C)c2)n1)c1cccc(C)c1",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)C(C)OC(C)C(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "ORGANIC",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)CC(=O)NCc1cccc(CNC(=O)CC(=O)NCCCCCCCC)c1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCNC(=O)C(CC)C(=O)NCc1cccc(CNC(=O)C(CC)C(=O)NCCCC)c1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)C(CC)C(=O)NCc1cccc(CNC(=O)C(CC)C(=O)NCCCCCCCC)c1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCCCOc1cc(CNC(=O)CC(=O)NCCCC)cc(CNC(=O)CC(=O)NCCCC)c1",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCN(CCCCCCCCCC)C(=O)[C@H](CCC)O[C@@H](CCC)C(=O)N(CCCCCCCCCC)CCCCCCCCCC",
+    "Target_metal": "UNSELECTIVE",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)C(CC)C(=O)NCc1ccc(CNC(=O)C(CC)C(=O)NCCCCCCCC)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCNC(=O)CC(=O)NCc1ccc(CNC(=O)CC(=O)NCCCCCCCC)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(CC)CCCC)C(=O)CCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(C)C(=O)CC(=O)NCc1cccc(CNC(=O)CC(=O)N(C)CCCC)c1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CN(C)CC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)C(CC)C(=O)NCc1ccc(CNC(=O)C(CC)C(=O)N(C)CCCCCCCC)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCNC(=O)CC(=O)NCc1ccc(CNC(=O)CC(=O)NCCCCC)cc1",
+    "Target_metal": "AQUEOUS",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCN(CC)C(=O)COc1c2cc(OC)cc1Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(CC)C(=O)COc1c2cc(OC)cc1Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OC)cc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCOc1cc2c(OCC(=O)N(CC)CC)c(c1)Cc1cc(OCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCC)cc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCOc1cc2c(OCC(=O)N(CC)CC)c(c1)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(c1cc(Cl)c2ccc3c(Cl)cc(C(=O)N4CCCCC4)nc3c2n1)N1CCCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "C1CCC2OCCOCCOC3CCCCC3OCCOCCOC2C1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C(=O)c1ccc2ccc3ccc(C(=O)N(CCCCCCCC)c4ccc(C)cc4)nc3c2n1)c1ccc(C)cc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C(=O)c1ccc2ccc3ccc(C(=O)N(CCCCCCCC)c4cc(C)cc(C)c4)nc3c2n1)c1cc(C)cc(C)c1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)c1ccc2ccc3cccnc3c2n1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CN(C(=O)CC(=O)N(C)c1ccccc1)c1ccccc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCn1c(-c2ccccc2)c(-c2ccccc2)c2cc3ccc4cc5c(-c6ccccc6)c(-c6ccccc6)n(CCCCCC)c(=O)c5nc4c3nc2c1=O",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(CC)C(=O)COc1c2cc(OCc3ccccc3)cc1Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C(=O)c1ccc2ccc3cccnc3c2n1)c1ccc(C)cc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCOc1cc2c(OCC(=O)N(CC)CC)c(c1)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCCCCCCCC)cc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CN(C(=O)c1cccc(C(=O)N(C)c2ccccc2)n1)c1ccccc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(CC)C(=O)COCC(=O)N(CC)CC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCN(CC)C(=O)COc1c2cc(OCc3ccccc3)cc1Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)Cc1cc(OCc3ccccc3)cc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)COCC(=O)N1CCOCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)COCC(=O)N(CCN(C(=O)COCC(=O)N(CCCC)CCCC)C(C)C)C(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)COCC(=O)N(CC)CCN(CC)C(=O)COCC(=O)N(CCCC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCCOCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCP(=O)(c1ccccc1)c1ccc2ccc3cccnc3c2n1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)CCC(=O)N(CCCC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(C)C(=O)CC(=O)N(C)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "c1cc2nc(c1)COc1ccccc1OCCOCCOc1ccccc1OC2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1ccc2ccc3cccnc3c2n1)c1ccc(C)cc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(c1cc(Cl)c2ccc3c(Cl)cc(C(=O)N4CCCc5ccccc54)nc3c2n1)N1CCCc2ccccc21",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(c1cc(Cl)c2ccc3c(Cl)cc(C(=O)n4c5ccccc5c5ccccc54)nc3c2n1)n1c2ccccc2c2ccccc21",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(c1cc(Cl)c2ccc3c(Cl)cc(C(=O)N4CCc5ccccc54)nc3c2n1)N1CCc2ccccc21",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(CC)C(=O)COc1c2cc(C(C)(C)C)cc1Cc1cc(C(C)(C)C)cc(c1OCC(=O)N(CC)CC)Cc1cc(C(C)(C)C)cc(c1OCC(=O)N(CC)CC)Cc1cc(C(C)(C)C)cc(c1OCC(=O)N(CC)CC)Cc1cc(C(C)(C)C)cc(c1OCC(=O)N(CC)CC)Cc1cc(C(C)(C)C)cc(c1OCC(=O)N(CC)CC)Cc1cc(C(C)(C)C)cc(c1OCC(=O)N(CC)CC)Cc1cc(C(C)(C)C)cc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)c1ccc2ccc3ccc(C(=O)N(CCCC)CCCC)nc3c2n1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(c1cc(Cl)c2ccc3c(Cl)cc(C(=O)N4CCCC4)nc3c2n1)N1CCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)Cc1cc(-c2ccc3ccc4ccc(-c5cc(CC(C)C)[nH]n5)nc4c3n2)n[nH]1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCc1cc(-c2ccc3ccc4ccc(-c5cc(CCCC)[nH]n5)nc4c3n2)n[nH]1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCOP(=O)(OCCCC)c1ccc2ccc3ccc(P(=O)(OCCCC)OCCCC)nc3c2n1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(c1cccc(-c2cccc(C(=O)N3CCCC3)n2)n1)N1CCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "O=C(c1cccc(C(=O)N2CCCC2)n1)N1CCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "O=C(c1ccc2ccc3ccc(C(=O)N4CCCC4)nc3c2n1)N1CCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCc1cc(-c2ccc3ccc4ccc(-c5cc(CCCCCCCC)[nH]n5)nc4c3n2)n[nH]1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(CC)C(=O)COc1c2cccc1Cc1cccc(c1OCC(=O)N(CC)CC)Cc1cccc(c1OCC(=O)N(CC)CC)Cc1cccc(c1OCC(=O)N(CC)CC)Cc1cccc(c1OCC(=O)N(CC)CC)Cc1cccc(c1OCC(=O)N(CC)CC)Cc1cccc(c1OCC(=O)N(CC)CC)Cc1cccc(c1OCC(=O)N(CC)CC)C2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "AQUEOUS",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)[C@H](C)O[C@H](C)C(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(COCC(=O)N1CCCCC1)N1CCCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCCCN1C(=O)c2nc3c(ccc4cc5c(nc43)C(=O)N(CCCCCC)[C@@H]3[C@@H]4CCC(C4)[C@H]53)cc2[C@H]2[C@H]3CC[C@H](C3)[C@H]21",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)N1CCCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)N1CCOCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCc1ccc(N(CC)C(=O)c2cccc(-c3cccc(C(=O)N(CC)c4ccc(CCCCCC)cc4)n3)n2)cc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCOCCC(C(=O)N(C)CCCC)C(=O)N(C)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "COCCN(CCOC)C(=O)COCC(=O)N(CCOC)CCOC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)CC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)CC(=O)N(CCCC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1cccc(-c2cccc(C(=O)N(CC)c3ccccc3)n2)n1)c1ccccc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "C1COCCOCCOCCOCCOCCO1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "c1ccc2c(c1)OCCOCCOc1ccccc1OCCOCCO2",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1cccc(-c2cccc(C(=O)N(CC)c3cc(C)ccc3C)n2)n1)c1cc(C)ccc1C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1ccc2ccc3ccc(C(=O)N(CC)c4ccc(C)cc4)nc3c2n1)c1ccc(C)cc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)COCC(=O)N1CCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)N1CCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNSELECTIVE",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCOP(=O)(O)OCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)C(CCOCCCCCC)C(=O)N(C)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CC)C(=O)COCC(=O)N(CC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)CCCC(C)CCCCN(C)C(=O)COCC(=O)N(C)CCCCC(C)CCCC(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCC(CCCC)CCCCCC)C(=O)COCC(=O)N(CCCCCCCC)CCCC(CCCC)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)CN(CC(C)C)C(=O)COCC(=O)N(CC(C)C)CC(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCC(CCCC)CCCN(C)C(=O)COCC(=O)N(C)CCCC(CCCC)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCC(C)(C)SCC1CN(C(=O)COCC(=O)N2CC(C)C(CSC(C)(C)CCCCCCCC)C2)CC1C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)N(CCCCCCCC)CCCCCCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CC(CC)CCCC)C(=O)COCC(=O)N(CCCCCCCC)CC(CC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(C)C(=O)COCC(=O)N(C)CC(CC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCC(C)CC(C)(C)C)C(=O)COCC(=O)N(CCCCCCCC)CCC(C)CC(C)(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCC(C)CCCC(C)C)C(=O)COCC(=O)N(CCCCCCCC)CCCCC(C)CCCC(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CC(C)C)C(=O)COCC(=O)N(CCCCCCCC)CC(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCN(CCCCCCCCCC)C(=O)COCC(=O)N(CCCCCC)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1cccc(-c2cccc(C(=O)N(CC)c3cc(C)cc(C)c3)n2)n1)c1cc(C)cc(C)c1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)N(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)[C@H](C)O[C@@H](C)C(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)COCC(=O)N1CCCCC1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(CC)CCCC)C(=O)C(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCC(C)CC(C)(C)C)C(=O)COCC(=O)N(CCCCCC)CCCC(C)CC(C)(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCC(C)CCCC(C)C)C(=O)COCC(=O)N(CCCCCC)CCC(C)CCCC(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(CCCCCCCCCCCC)C(=O)COC1CCCN(CCCCCC)C1=O",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCC(C)CCC=C(C)C)C(=O)COCC(=O)N(CCCCCC)CCC(C)CCC=C(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCN(C(=O)c1cccc(-c2cccc(C(=O)N(CC)c3ccc(C)cc3C)n2)n1)c1ccc(C)cc1C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)c1ccccc1C(=O)O",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCOP(=O)(OCC)c1ccc2ccc3ccc(P(=O)(OCC)OCC)nc3c2n1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=P(c1ccccc1)(c1ccccc1)c1ccc2ccc3ccc(P(=O)(c4ccccc4)c4ccccc4)nc3c2n1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCP(=O)(c1ccccc1)c1ccc2ccc3ccc(P(=O)(CCCC)c4ccccc4)nc3c2n1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(C)C(=O)CC(=O)N(C)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C(=O)c1ccc2ccc3cccnc3c2n1)c1cc(C)cc(C)c1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)C(Cc1ccccc1CC(C(=O)N(CCCC)CCCC)C(=O)N(CCCC)CCCC)C(=O)N(CCCC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(C)C(=O)C(CCCCCC)C(=O)N(C)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCP(=O)(CCCCCCCC)Cc1cccc(CP(=O)(CCCCCCCC)CCCCCCCC)[n+]1[O-]",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCc1ccc(N(CC)C(=O)c2ccc3ccc4ccc(C(=O)N(CC)c5ccc(CC)cc5)nc4c3n2)cc1",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCC)C(=O)COCC(=O)N(CCC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(O)CN(CC(=O)O)C1CCCCC1N(CC(=O)O)CC(=O)O",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)CC(=O)N(CCCCCC)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "O=C(O)CN(CCO)CCN(CC(=O)O)CC(=O)O",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "ORGANIC",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "AQUEOUS"
+  },
+  {
+    "SMILES": "CCCCCCC(C)N(CCCC)C(=O)COCC(=O)N(CCCC)C(C)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCOP(=O)(CCCC)OCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)CCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(CC)CCCC)C(=O)C(C)(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(CC)CCCC)C(=O)CC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)CN(CC(CC)CCCC)C(C)=O",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)C(CC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)COP(=O)(O)OCC(CC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCN(CCCCCCCCCC)C(=O)C(C)OC(C)C(=O)N(CCCCCCCCCC)CCCCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCOP(=O)(OCCCCCCCC)C(=O)N(CC)CC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCC(=O)N(CCCCCC)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCOP(=O)(OCCCCCC)C(=O)N(CC)CC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCOP(=O)(CC(=O)N(CCCC)CCCC)OCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(CCC)C(=O)COCC(=O)N(CCC)CCCCCCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(CC)C(=O)COCC(=O)N(CC)CCCCCCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(C)C(=O)COCC(=O)N(C)CCCCCCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCCCCCN(CCCC)C(=O)COCC(=O)N(CCCC)CCCCCCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CC(C)CCN(CCC(C)C)C(=O)COCC(=O)N(CCC(C)C)CCC(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)COP(=O)(O)CC(CC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCOP(=O)(OCCCC)OCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCN(CCCC)C(=O)COCC(=O)NCCNC(=O)COCC(=O)N(CCCC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "UNSELECTIVE"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)COCC(=O)NCCNC(=O)COCC(=O)N(CCCCCC)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)NCCNC(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)COCC(=O)N(CC)CCN(CC)C(=O)COCC(=O)N(CCCCCC)CCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)N(CC)CCN(CC)C(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCN(CCCCCC)C(=O)COCC(=O)N(CCN(C(=O)COCC(=O)N(CCCCCC)CCCCCC)C(C)C)C(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCCCCN(CCCCCCCC)C(=O)COCC(=O)N(CCN(C(=O)COCC(=O)N(CCCCCCCC)CCCCCCCC)C(C)C)C(C)C",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCCOP(=O)(CP(=O)(OCCCCC)OCCCCC)OCCCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  },
+  {
+    "SMILES": "CCCCC(CC)COP(=O)(OCC(CC)CCCC)OCC(CC)CCCC",
+    "Target_metal": "UNTESTED",
+    "Other_metal": "UNTESTED",
+    "Source": "Experimental",
+    "Similarity_to_Experimental": "Reference",
+    "Similarity_to_Generated": "Reference",
+    "LogP": "ORGANIC"
+  }
+]
