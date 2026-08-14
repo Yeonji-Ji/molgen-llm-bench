@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+A  Cy5Me4-BTPhen,CC1(C)CC(C)(C)c2nc(-c3ccc4ccc5ccc(-c6nnc7c(n6)C(C)(C)CC7(C)C)nc5c4n3)nnc21,C32H34N8,530.7,6.4,103.1,0,8,2,3.58,0.818,0.014,False,0.0,True,True,2,2
+B  spiro-BTBP,CC1(C)CCC2(CCCCC2)c2nc(-c3cccc(-c4cccc(-c5nnc6c(n5)C5(CCCCC5)CCC6(C)C)n4)n3)nnc21,C38H46N8,614.8,8.39,103.1,0,8,3,4.27,0.778,0.014,False,0.444,True,True,2,2
+C  4-hexyloxy-Cy6Me4-BTP,CCCCCCOc1cc(-c2nnc3c(n2)C(C)(C)CCCC3(C)C)nc(-c2nnc3c(n2)C(C)(C)CCCC3(C)C)c1,C35H51N7O,585.8,8.22,99.5,0,7,8,3.69,0.5,0.021,False,0.4,True,True,2,1
+D  N-alkyl triazolyl-phen,CCCCCCn1c(-c2ccc3ccc4ccc(-c5nnc(C(C)(C)C)n5CCCCCC)nc4c3n2)nnc1C(C)(C)C,C36H50N8,594.9,9.06,87.2,0,8,12,3.08,0.412,0.0,False,0.259,True,True,0,2
+E  bis-click-triazolyl-terpy,CCCCC(CC)Cn1cc(-c2cccc(-c3cccc(-c4cn(CC(CC)CCCC)nn4)n3)n2)nn1,C30H42N8,514.7,7.09,87.2,0,8,15,3.77,0.375,0.0,False,0.23,True,True,0,2
+F  bis-click-triazolyl-BTP-ether,CCCCCCOc1cc(-c2cn(CC(C)(C)C)nn2)nc(-c2cn(CC(C)(C)C)nn2)c1,C25H39N7O,453.6,5.65,83.5,0,7,10,3.14,0.455,0.0,False,0.414,True,True,0,1
+G  bis-benzimidazolyl-triazine,CCCCC(CC)Cn1c(-c2nc(-c3nc4ccccc4n3CC(CC)CCCC)nc(N(CCCC)CCCC)n2)nc2ccccc21,C41H60N8,665.0,10.74,77.5,0,7,21,3.94,0.268,0.0,False,0.355,True,True,1,0
+H  bis-pyrazolyl-phen,CCCCCCn1nc(-c2ccc3ccc4ccc(-c5cc(C(C)(C)C)n(CCCCCC)n5)nc4c3n2)cc1C(C)(C)C,C38H52N6,592.9,10.27,61.4,0,6,12,3.08,0.469,0.0,False,0.52,True,True,0,2
+I  bis-pyrazolyl-quaterpy,CCCCCCn1nc(-c2cccc(-c3cccc(-c4cccc(-c5cc(C(C)(C)C)n(CCCCCC)n5)n4)n3)n2)cc1C(C)(C)C,C41H55N7,645.9,10.69,74.3,0,7,14,3.07,0.367,0.0,False,0.762,True,True,0,3
+J  bis-benzimidazolyl-pyridine,CCCCC(CC)Cn1c(-c2cc(C(C)(C)C)cc(-c3nc4ccccc4n3CC(CC)CCCC)n2)nc2ccccc21,C39H53N5,591.9,10.85,48.5,0,5,14,3.73,0.254,0.0,False,0.576,True,True,0,1

@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+4-tBu-DPA-dioctyl,CCCCCCCCN(CCCCCCCC)C(=O)c1cc(C(C)(C)C)cc(C(=O)N(CCCCCCCC)CCCCCCCC)n1,C43H79N3O2,670.1,12.71,53.5,0,1,30,2.73,0.571,0.0,False,0.0,True,True,0,1
+"Bipy-6,6'-diamide",CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2cccc(C(=O)N(CC(CC)CCCC)CC(CC)CCCC)n2)n1,C44H74N4O2,691.1,11.89,66.4,0,2,27,4.18,0.5,0.0,False,0.333,True,True,0,2
+"Phen-2,9-diamide-2EH",CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1ccc2ccc3ccc(C(=O)N(CC(CC)CCCC)CC(CC)CCCC)nc3c2n1,C46H74N4O2,715.1,12.53,66.4,0,2,26,4.24,0.634,0.0,False,0.705,True,True,0,2
+Triazinyl-picolinamide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2nnc(CCC)c(CCC)n2)n1,C31H51N5O,509.8,7.71,71.9,0,4,18,3.76,0.51,0.0,False,0.725,True,True,1,1
+CyMe4-triazinyl-picolinamide,CCCCCCCCN(CCCCCCCC)C(=O)c1cccc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)n1,C33H53N5O,535.8,8.45,71.9,0,4,16,3.07,0.529,0.016,False,0.456,True,True,1,1
+Triazolyl-picolinamide,CCCCCCCCN(CCCCCCCC)C(=O)c1cccc(-c2cn(CCCCCC)nn2)n1,C30H51N5O,497.8,8.08,63.9,0,4,21,2.62,0.509,0.0,False,0.532,True,True,0,1
+Phen-amide-CyMe4triazine,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1ccc2ccc3ccc(-c4nnc5c(n4)C(C)(C)CCC5(C)C)nc3c2n1,C40H56N6O,636.9,9.86,84.8,0,5,14,4.21,0.526,0.014,False,0.649,True,True,1,2
+Pyrazolyl-picolinamide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2cc(C(C)(C)C)nn2CC(C)CC)n1,C34H58N4O,538.9,9.16,51.0,0,3,17,3.98,0.365,0.0,False,0.617,True,True,0,1
+Quinoline-triazolyl-amide,CCCCCCCCN(CCCCCCCC)C(=O)c1ccc2cccc(-c3cn(CCCC(C)C)nn3)c2n1,C34H53N5O,547.8,9.09,63.9,0,4,20,2.8,0.531,0.0,False,0.625,True,True,0,1
+Phosphoryl-picolinamide,CCCCCCCCN(CCCCCCCC)C(=O)c1cccc(P(=O)(c2ccccc2)c2ccccc2)n1,C34H47N2O2P,546.7,7.88,50.3,0,1,18,2.81,0.604,0.0,False,0.517,True,True,0,1

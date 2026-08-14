@@ -105,44 +105,57 @@ def score_one(smiles, fps_so_far, exp_fps, exp_canon):
     return row, fp
 
 
-for design in DESIGNS:
-    ref_file = DESIGN_REF[design]
-    exp_fps, exp_canon = REF_CACHE[ref_file]
-
-    for model, var in MODEL_VARS.items():
-        run_path = os.path.join(ROOT, "runs", model, PROMPT_ID, f"design{design}", "raw_smiles.py")
-        if not os.path.exists(run_path):
+def score_list(smiles_list, names, exp_fps, exp_canon, default_name_fn):
+    """Score a list of SMILES, return (rows, mols_for_png, legends)."""
+    rows, mols_for_png, legends, fps_so_far = [], [], [], []
+    for i, smi in enumerate(smiles_list, start=1):
+        result = score_one(smi, fps_so_far, exp_fps, exp_canon)
+        if result is None:
+            print(f"skip invalid SMILES #{i}: {smi}")
             continue
-        mod = runpy.run_path(run_path)
-        smiles_list = mod[var]
-        names = mod.get(NAME_VARS.get(model, ""))
+        row, fp = result
+        name = names[i - 1] if names else default_name_fn(i)
+        rows.append({"name": name, **row})
+        fps_so_far.append(fp)
 
-        rows, mols_for_png, legends, fps_so_far = [], [], [], []
-        for i, smi in enumerate(smiles_list, start=1):
-            result = score_one(smi, fps_so_far, exp_fps, exp_canon)
-            if result is None:
-                print(f"[{model} design{design}] skip invalid SMILES #{i}: {smi}")
+        mol = Chem.MolFromSmiles(row["canonical_smiles"])
+        mols_for_png.append(mol)
+        legends.append(
+            f'{name}\n{row["formula"]}  MW {row["MW"]}  cLogP {row["MolLogP"]}'
+        )
+    return rows, mols_for_png, legends
+
+
+def make_grid_png(mols_for_png, legends, png_path):
+    img = Draw.MolsToGridImage(
+        mols_for_png, molsPerRow=3, subImgSize=(400, 400), legends=legends
+    )
+    img.save(png_path)
+
+
+if __name__ == "__main__":
+    for design in DESIGNS:
+        ref_file = DESIGN_REF[design]
+        exp_fps, exp_canon = REF_CACHE[ref_file]
+
+        for model, var in MODEL_VARS.items():
+            run_path = os.path.join(ROOT, "runs", model, PROMPT_ID, f"design{design}", "run1", "raw_smiles.py")
+            if not os.path.exists(run_path):
                 continue
-            row, fp = result
-            name = names[i - 1] if names else f"{model}_d{design}_{i:02d}"
-            rows.append({"name": name, **row})
-            fps_so_far.append(fp)
+            mod = runpy.run_path(run_path)
+            smiles_list = mod[var]
+            names = mod.get(NAME_VARS.get(model, ""))
 
-            mol = Chem.MolFromSmiles(row["canonical_smiles"])
-            mols_for_png.append(mol)
-            legends.append(
-                f'{name}\n{row["formula"]}  MW {row["MW"]}  cLogP {row["MolLogP"]}'
+            rows, mols_for_png, legends = score_list(
+                smiles_list, names, exp_fps, exp_canon,
+                default_name_fn=lambda i: f"{model}_d{design}_{i:02d}",
             )
 
-        df = pd.DataFrame(rows)
-        out_dir = os.path.join(ROOT, "results", model, PROMPT_ID, f"design{design}")
-        os.makedirs(out_dir, exist_ok=True)
-        csv_path = os.path.join(out_dir, "candidate_scores.csv")
-        png_path = os.path.join(out_dir, "candidates.png")
-        df.to_csv(csv_path, index=False)
-
-        img = Draw.MolsToGridImage(
-            mols_for_png, molsPerRow=3, subImgSize=(400, 400), legends=legends
-        )
-        img.save(png_path)
-        print(f"{model} design{design}: {len(rows)}/{len(smiles_list)} scored -> {csv_path}, {png_path}")
+            df = pd.DataFrame(rows)
+            out_dir = os.path.join(ROOT, "results", model, PROMPT_ID, f"design{design}", "run1")
+            os.makedirs(os.path.join(out_dir, "images"), exist_ok=True)
+            csv_path = os.path.join(out_dir, "candidates.csv")
+            png_path = os.path.join(out_dir, "images", "grid.png")
+            df.to_csv(csv_path, index=False)
+            make_grid_png(mols_for_png, legends, png_path)
+            print(f"{model} design{design} run1: {len(rows)}/{len(smiles_list)} scored -> {csv_path}, {png_path}")

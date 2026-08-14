@@ -1,0 +1,13 @@
+# Source: runs/raw/gem-d3-4
+SMILES_gemini = [
+    'O=C(N(CCCC)CCCC)c1ccc2ccc3ccc(C(=O)N(CCCC)CCCC)nc3c2n1',
+    'O=C(N(CCCCC)CCCCC)c1ccc2ccc3ccc(C(=O)N(CCCCC)CCCCC)nc3c2n1',
+    'O=C(N(CC(CC)CCCC)CC(CC)CCCC)c1ccc2ccc3ccc(C(=O)N(CC(CC)CCCC)CC(CC)CCCC)nc3c2n1',
+    'O=C(N(CCCC)CCCC)c1cccc(-c2cccc(C(=O)N(CCCC)CCCC)n2)n1',
+    'O=C(N(CC(CC)CCCC)CC(CC)CCCC)c1cccc(-c2cccc(C(=O)N(CC(CC)CCCC)CC(CC)CCCC)n2)n1',
+    'CCCCCCCCN(CCCCCCCC)C(=O)CSCC(=O)N(CCCCCCCC)CCCCCCCC',
+    'CCCCCCN(CCCCCC)C(=O)CSCC(=O)N(CCCCCC)CCCCCC',
+    'CC(C)CN(CC(C)C)C(=O)CSCC(=O)N(CC(C)C)CC(C)C',
+    'O=C(N(CCCCCC)CCCCCC)c1cccc(C(=O)N(CCCCCC)CCCCCC)n1',
+    'O=C(N(CCCCCCCC)CCCCCCCC)c1cccc(C(=O)N(CCCCCCCC)CCCCCCCC)n1',
+]

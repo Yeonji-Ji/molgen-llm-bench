@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+"4,4'-dihexyl-CyMe4-BTBP",CCCCCCc1cc(-c2cc(CCCCCC)cc(-c3nnc4c(n3)C(C)(C)CCC4(C)C)n2)nc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)c1,C44H62N8,703.0,10.79,103.1,0,8,13,3.68,0.605,0.133,False,0.0,True,True,2,2
+cycloheptane-fused-BTPhen,CC1(C)CCCC(C)(C)c2nc(-c3ccc4ccc5ccc(-c6nnc7c(n6)C(C)(C)CCCC7(C)C)nc5c4n3)nnc21,C36H42N8,586.8,7.97,103.1,0,8,2,3.51,0.605,0.017,False,0.42,True,True,2,2
+diisobutyl-BTBP,CC(C)Cc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(C)C)c(CC(C)C)n4)n3)n2)nc1CC(C)C,C32H42N8,538.7,6.64,103.1,0,8,11,3.07,0.556,0.055,False,0.245,True,True,2,2
+CyMe4C5-BTPhen,CC1(C)CC(C)(C)c2nc(-c3ccc4ccc5ccc(-c6nnc7c(n6)C(C)(C)CC7(C)C)nc5c4n3)nnc21,C32H34N8,530.7,6.4,103.1,0,8,2,3.58,0.553,0.017,False,0.771,True,True,2,2
+bis(2-ethylhexyl)-BTBP,CCCCC(CC)Cc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(CC)CCCC)c(CC(CC)CCCC)n4)n3)n2)nc1CC(CC)CCCC,C48H74N8,763.2,12.88,103.1,0,8,27,4.56,0.595,0.19,False,0.625,True,True,2,2
+"4,4'-diphenyl-CyMe4-BTBP",CC1(C)CCC(C)(C)c2nc(-c3cc(-c4ccccc4)cc(-c4cc(-c5ccccc5)cc(-c5nnc6c(n5)C(C)(C)CCC6(C)C)n4)n3)nnc21,C44H46N8,686.9,9.88,103.1,0,8,5,3.43,0.684,0.016,False,0.553,True,True,2,2
+asym-CyMe4/dipentyl-BTBP,CCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc5c(n4)C(C)(C)CCC5(C)C)n3)n2)nc1CCCCC,C34H44N8,564.8,7.66,103.1,0,8,11,3.4,0.721,0.091,False,0.608,True,True,2,2
+"4,4'-di-tBu-dipropyl-BTBP",CCCc1nnc(-c2cc(C(C)(C)C)cc(-c3cc(C(C)(C)C)cc(-c4nnc(CCC)c(CCC)n4)n3)n2)nc1CCC,C36H50N8,594.9,8.25,103.1,0,8,11,3.24,0.595,0.07,False,0.364,True,True,2,2
+dispirocyclohexyl-BTBP,c1cc(-c2cccc(-c3nnc4c(n3)C3(CCCCC3)CCC43CCCCC3)n2)nc(-c2nnc3c(n2)C2(CCCCC2)CCC32CCCCC2)c1,C44H54N8,695.0,10.24,103.1,0,8,3,4.53,0.622,0.0,False,0.48,True,True,2,2
+dibutyl-BTPhen,CCCCc1nnc(-c2ccc3ccc4ccc(-c5nnc(CCCC)c(CCCC)n5)nc4c3n2)nc1CCCC,C34H42N8,562.8,7.86,103.1,0,8,14,3.03,0.632,0.111,False,0.48,True,True,2,2

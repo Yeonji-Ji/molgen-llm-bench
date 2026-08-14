@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+chatgpt_d4_r3_01,CCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCC)c(CCCC)n4)n3)n2)nc1CCCC,C32H42N8,538.7,7.22,103.1,0,8,15,2.96,0.906,0.113,False,0.0,False,True,2,2
+chatgpt_d4_r3_02,CC(C)Cc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(C)C)c(CC(C)C)n4)n3)n2)nc1CC(C)C,C32H42N8,538.7,6.64,103.1,0,8,11,3.07,0.556,0.055,False,0.553,True,True,2,2
+chatgpt_d4_r3_03,CCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(C)CC)c(CC(C)CC)n4)n3)n2)nc1CCCCC,C36H50N8,594.9,8.49,103.1,0,8,17,4.01,0.756,0.129,False,0.69,True,True,2,2
+chatgpt_d4_r3_04,CCCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCCCC)c(CCCCCC)n4)n3)n2)nc1CCCCCC,C40H58N8,651.0,10.34,103.1,0,8,23,3.0,0.969,0.109,False,0.879,False,True,2,2
+chatgpt_d4_r3_05,CCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCC)c(CCC)n4)n3)n2)nc1CCCCC,C32H42N8,538.7,7.22,103.1,0,8,15,3.01,0.939,0.107,False,0.912,False,True,2,2
+chatgpt_d4_r3_06,CC(C)(C)Cc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(C)(C)C)c(CC(C)(C)C)n4)n3)n2)nc1CC(C)(C)C,C36H50N8,594.9,8.2,103.1,0,8,7,3.29,0.556,0.055,False,0.568,True,True,2,2
+chatgpt_d4_r3_07,CCCCc1nnc(-c2ccccc2-c2ccccc2-c2nnc(CCCC)c(CCCC)n2)nc1CCCC,C34H44N6,536.8,8.43,77.3,0,6,15,2.73,0.579,0.115,False,0.639,True,True,2,0
+chatgpt_d4_r3_08,CCCCCc1nnc(-c2cccc(-c3ccc(C)c(-c4nnc(CCCCC)c(CCCCC)n4)n3)n2)nc1CCCCC,C37H52N8,608.9,9.09,103.1,0,8,19,3.22,0.775,0.095,False,0.756,True,True,2,2
+chatgpt_d4_r3_09,CCCCc1nnc(-c2cccc(-c3ccc(OC)c(-c4nnc(CCCC)c(CCCC)n4)n3)n2)nc1CCCC,C33H44N8O,568.8,7.23,112.4,0,8,16,3.26,0.659,0.092,False,0.714,True,True,2,2
+chatgpt_d4_r3_10,CCCCCc1nnc(-c2cccc(-c3ccc(F)c(-c4nnc(CCCCC)c(CCCCC)n4)n3)n2)nc1CCCCC,C36H49FN8,612.8,8.92,103.1,0,8,19,3.25,0.756,0.094,False,0.761,True,True,2,2

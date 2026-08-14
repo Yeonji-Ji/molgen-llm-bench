@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+gemini_d4_r5_01,CCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCC)c(CCCC)n4)n3)n2)nc1CCCC,C32H42N8,538.7,7.22,103.1,0,8,15,2.96,0.906,0.113,False,0.0,False,True,2,2
+gemini_d4_r5_02,CCCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCCCC)c(CCCCCC)n4)n3)n2)nc1CCCCCC,C40H58N8,651.0,10.34,103.1,0,8,23,3.0,0.969,0.109,False,0.879,False,True,2,2
+gemini_d4_r5_03,CCCCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCCCCC)c(CCCCCCC)n4)n3)n2)nc1CCCCCCC,C44H66N8,707.1,11.9,103.1,0,8,27,3.03,0.969,0.109,False,1.0,False,True,2,2
+gemini_d4_r5_04,CCCCCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCCCCCC)c(CCCCCCCC)n4)n3)n2)nc1CCCCCCCC,C48H74N8,763.2,13.46,103.1,0,8,31,3.08,0.969,0.109,False,1.0,False,True,2,2
+gemini_d4_r5_05,CCCCCCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCCCCCCC)c(CCCCCCCCC)n4)n3)n2)nc1CCCCCCCCC,C52H82N8,819.3,15.02,103.1,0,8,35,3.13,0.969,0.109,False,1.0,False,True,2,2
+gemini_d4_r5_06,CC(C)Cc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(C)C)c(CC(C)C)n4)n3)n2)nc1CC(C)C,C32H42N8,538.7,6.64,103.1,0,8,11,3.07,0.556,0.055,False,0.553,True,True,2,2
+gemini_d4_r5_07,CC(C)(C)Cc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(C)(C)C)c(CC(C)(C)C)n4)n3)n2)nc1CC(C)(C)C,C36H50N8,594.9,8.2,103.1,0,8,7,3.29,0.556,0.055,False,0.568,True,True,2,2
+gemini_d4_r5_08,CC(C)(C)c1nnc(-c2cccc(-c3cccc(-c4nnc(C(C)(C)C)c(C(C)(C)C)n4)n3)n2)nc1C(C)(C)C,C32H42N8,538.7,7.04,103.1,0,8,3,3.03,0.447,0.038,False,0.528,True,True,2,2
+gemini_d4_r5_09,c1cc(-c2cccc(-c3nnc(C4CCCCC4)c(C4CCCCC4)n3)n2)nc(-c2nnc(C3CCCCC3)c(C3CCCCC3)n2)c1,C40H50N8,642.9,10.04,103.1,0,8,7,3.06,0.457,0.0,False,0.4,True,True,2,2
+gemini_d4_r5_10,CCCCC(CC)CCc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(CC)CCCC)c(CC(CC)CCCC)n4)n3)n2)nc1CC(CC)CCCC,C49H76N8,777.2,13.27,103.1,0,8,28,4.65,0.6,0.175,False,0.614,True,True,2,2

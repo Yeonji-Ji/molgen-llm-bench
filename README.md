@@ -19,34 +19,49 @@ molgen-llm-bench/
 │       ├── user.md            # user prompt sent to each model
 │       └── design.txt         # design_focus text for design1..4
 ├── runs/
-│   └── {tool}/v1/design{N}/
-│       └── raw_smiles.py      # SMILES extracted from that model's response
+│   └── {tool}/v1/design{N}/run{K}/
+│       └── raw_smiles.py      # SMILES (+ names, for claudescience) extracted from that run's response
 ├── eval/
-│   ├── score_candidates.py    # shared scoring script
+│   ├── score_candidates.py    # shared scoring script (regenerates run1 only, see below)
 │   ├── data_list.txt          # experimental reference SMILES (design3, design4)
 │   ├── data_list_all.json     # experimental reference SMILES (design1, design2)
 │   ├── data_list_candidates.png
 │   └── data_list_all_candidates.png
 └── results/
-    ├── candidate_scores_v1.xlsx   # combined workbook: `combined` + one sheet per design
-    └── {tool}/v1/design{N}/
-        ├── candidate_scores.csv   # scored candidates for that model/design
-        └── candidates.png
+    ├── candidate_scores_v1.xlsx     # run1-only combined workbook: `combined` + one sheet per design
+    ├── {tool}/v1/design{N}/run{K}/
+    │   ├── candidates.csv           # scored candidates for that model/design/run
+    │   └── images/grid.png          # 2D structure grid for that model/design/run
+    └── analysis/
+        ├── all_candidates_long.csv      # all 800 scored molecules (4 design × 4 model × 5 run × 10)
+        ├── run_means.csv                 # 80 rows: mean of the 10 molecules per (design, model, run)
+        └── design_model_stats.csv        # 16 rows: mean/sd(ddof=1)/sem of the 5 run-means per (design, model)
 ```
 
-- `prompt_id` (currently `v1`) ties a prompt version to the runs/results it produced.
+- `prompt_id` (currently `v1`) ties a prompt version to the runs/results it produced. `v1` is the
+  paper-reproduction experiment — Design 1-4 × 4 models × 5 runs (`run1`..`run5`). New prompts not
+  from the paper start at `v2`.
 - `tool` is one of `claude`, `gemini`, `chatgpt`, `claudescience`.
 - `design{N}` (`design1`..`design4`) is one of four design-focus variants run under the
   same `v1` prompt (see [Designs](#designs)). `design4` is the original/baseline design.
+- `run{K}` (`run1`..`run5`) is one of five repeated generations under the same design/tool/prompt.
+  `run1` was scored first and lives in `candidate_scores_v1.xlsx`; `run2`-`run5` were parsed from
+  raw model output (originally `runs/raw/`, deleted after parsing — SMILES/names are fully preserved
+  in `runs/{tool}/v1/design{N}/run{K}/raw_smiles.py`, but per-candidate metrics Claude Science computed
+  itself in its own run2-5 CSVs, e.g. its own logP/similarity numbers, were not kept — see
+  `results/{tool}/v1/design{N}/run{K}/candidates.csv` for our own scoring instead).
 
 ## Models
 
 | tool | model | naming |
 |---|---|---|
-| Claude | Opus5 | `claude_01..10` (`claude_d{N}_01..10` for design1-3, no curated names) |
-| Gemini | 3.1Pro (extended) | `gemini_01..10` (`gemini_d{N}_01..10` for design1-3) |
-| ChatGPT | GPT5.6Sol | `chatgpt_01..10` (`chatgpt_d{N}_01..10` for design1-3) |
-| Claude Science | Opus5 — chemistry-research-focused session | descriptive (`CyMe4-BTPhen`, ...) for design4 only; `claudescience_d{N}_01..10` for design1-3 |
+| Claude | Opus5 | `claude_d{N}_r{K}_01..10` (no curated names) |
+| Gemini | 3.1Pro (extended) | `gemini_d{N}_r{K}_01..10` |
+| ChatGPT | GPT5.6Sol | `chatgpt_d{N}_r{K}_01..10` |
+| Claude Science | Opus5 — chemistry-research-focused session | descriptive (`CyMe4-BTPhen`, ...) for run2-5, since its raw output includes names; `claudescience_d{N}_01..10` for run1 (no names in the original run1 source) |
+
+(`run1` names for claude/gemini/chatgpt use the shorter `{tool}_d{N}_01..10` form, no `_r1`, kept
+from before the run-folder restructure.)
 
 ## Designs
 
@@ -76,17 +91,21 @@ a different experimental reference set per design:
 eval/score_candidates.py
 ```
 
-for each design (1-4) and each tool, reads `runs/{tool}/v1/design{N}/raw_smiles.py`,
+for each design (1-4) and each tool, reads `runs/{tool}/v1/design{N}/run1/raw_smiles.py`,
 scores every SMILES against that design's reference set, and writes
-`results/{tool}/v1/design{N}/candidate_scores.csv` + `candidates.png`. Requires
-`rdkit` (with the `SA_Score` contrib module) and `pandas`.
+`results/{tool}/v1/design{N}/run1/candidates.csv` + `run1/images/grid.png`. Requires
+`rdkit` (with the `SA_Score` contrib module) and `pandas`. It only (re)generates `run1` —
+`run2`-`run5` were one-off parses of `runs/raw/` (ast-literal SMILES lists for
+claude/gemini/chatgpt, CSVs with varying columns for claudescience) scored the same way via
+`score_candidates.score_list`/`make_grid_png`, not re-run by this script.
 
-To add a new prompt version: create `prompts/v2/`, add `runs/{tool}/v2/design{N}/raw_smiles.py`
+To add a new prompt version: create `prompts/v2/`, add `runs/{tool}/v2/design{N}/run1/raw_smiles.py`
 per tool/design, and change `PROMPT_ID` in `eval/score_candidates.py`.
 
-`results/candidate_scores_v1.xlsx` combines all `candidate_scores.csv` files into one
+`results/candidate_scores_v1.xlsx` combines all `run1` candidate CSVs into one
 workbook: a `combined` sheet (all designs × all tools) plus one `design{N}` sheet per
-design (all tools for that design).
+design (all tools for that design). It does **not** include run2-5 — for the full 5-run
+picture use `results/analysis/` (see [Layout](#layout)).
 
 ## Score columns
 

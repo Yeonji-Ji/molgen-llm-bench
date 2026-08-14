@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+claude_d4_r2_01,CCCCC(CC)Cc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(CC)CCCC)c(CC(CC)CCCC)n4)n3)n2)nc1CC(CC)CCCC,C48H74N8,763.2,12.88,103.1,0,8,27,4.56,0.595,0.19,False,0.0,True,True,2,2
+claude_d4_r2_02,CC1(C)CCC(C)(C)c2nc(-c3ccc4ccc5ccc(-c6nnc7c(n6)C(C)(C)CCC7(C)C)nc5c4n3)nnc21,C34H38N8,558.7,7.19,103.1,0,8,2,3.46,0.686,0.017,False,0.222,True,True,2,2
+claude_d4_r2_03,CCCCc1nnc(-c2cc(C(C)(C)C)cc(-c3cc(C(C)(C)C)cc(-c4nnc(CCCC)c(CCCC)n4)n3)n2)nc1CCCC,C40H58N8,651.0,9.81,103.1,0,8,15,3.28,0.548,0.105,False,0.373,True,True,2,2
+claude_d4_r2_04,CC(C)(C)Cc1nnc(-c2cccc(-c3cccc(-c4nnc(CC(C)(C)C)c(CC(C)(C)C)n4)n3)n2)nc1CC(C)(C)C,C36H50N8,594.9,8.2,103.1,0,8,7,3.29,0.556,0.055,False,0.477,True,True,2,2
+claude_d4_r2_05,CCC1(CC)CCC(CC)(CC)c2nc(-c3cccc(-c4cccc(-c5nnc6c(n5)C(CC)(CC)CCC6(CC)CC)n4)n3)nnc21,C40H54N8,646.9,9.67,103.1,0,8,11,3.9,0.605,0.052,False,0.419,True,True,2,2
+claude_d4_r2_06,CCCCCCCCc1nnc(-c2ccc3ccc4ccc(-c5nnc(CCCCCCCC)c(CCCCCCCC)n5)nc4c3n2)nc1CCCCCCCC,C50H74N8,787.2,14.1,103.1,0,8,30,3.17,0.684,0.107,False,0.489,True,True,2,2
+claude_d4_r2_07,CC(C)(C)c1nnc(-c2cccc(-c3cccc(-c4nnc(C(C)(C)C)c(C(C)(C)C)n4)n3)n2)nc1C(C)(C)C,C32H42N8,538.7,7.04,103.1,0,8,3,3.03,0.447,0.038,False,0.528,True,True,2,2
+claude_d4_r2_08,CCCCC(CC)Cc1cc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)nc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)c1,C35H51N7,569.8,8.24,90.2,0,7,8,4.21,0.521,0.143,False,0.463,True,True,2,1
+claude_d4_r2_09,CC(C)(C)CC(C)(C)c1cc(-c2cccc(-c3cccc(-c4cc(C(C)(C)CC(C)(C)C)[nH]n4)n3)n2)[nH]n1,C32H44N6,512.7,8.35,83.1,2,6,7,3.39,0.468,0.03,False,0.327,True,True,0,2
+claude_d4_r2_10,CCCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc5c(n4)C(C)(C)CCC5(C)C)n3)n2)nc1CCCCCC,C36H48N8,592.8,8.44,103.1,0,8,13,3.42,0.705,0.09,False,0.54,True,True,2,2

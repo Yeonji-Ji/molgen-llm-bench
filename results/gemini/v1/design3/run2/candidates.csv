@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+gemini_d3_r2_01,CCCCCCN(C)C(=O)c1cccc(C(=O)N(C)CCCCCC)n1,C21H35N3O2,361.5,4.39,53.5,0,1,12,2.28,0.292,0.085,False,0.0,True,True,0,1
+gemini_d3_r2_02,CCCCCCCCN(CC)C(=O)c1cccc(C(=O)N(CC)CCCCCCCC)n1,C27H47N3O2,445.7,6.73,53.5,0,1,18,2.42,0.286,0.083,False,0.703,True,True,0,1
+gemini_d3_r2_03,CCCCC(CC)CNC(=O)c1cccc(C(=O)NCC(CC)CCCC)n1,C23H39N3O2,389.6,4.97,71.1,2,1,14,3.11,0.333,0.097,False,0.404,True,True,0,1
+gemini_d3_r2_04,CCCCCCN(CCCCCC)C(=O)c1ccc2ccc3ccc(C(=O)N(CCCCCC)CCCCCC)nc3c2n1,C38H58N4O2,602.9,9.99,66.4,0,2,22,2.65,0.235,0.083,False,0.641,False,True,0,2
+gemini_d3_r2_05,CC(C)CN(CC(C)C)C(=O)c1ccc2ccc3ccc(C(=O)N(CC(C)C)CC(C)C)nc3c2n1,C30H42N4O2,490.7,6.29,66.4,0,2,10,2.68,0.184,0.088,False,0.564,False,True,0,2
+gemini_d3_r2_06,CCCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCCCC)c(CCCCCC)n4)n3)n2)nc1CCCCCC,C40H58N8,651.0,10.34,103.1,0,8,23,3.0,0.969,0.109,False,0.312,False,True,2,2
+gemini_d3_r2_07,CCCCCCCc1nnc(-c2cccc(-c3cccc(-c4nnc(CCCCCCC)c(CCCCCCC)n4)n3)n2)nc1CCCCCCC,C44H66N8,707.1,11.9,103.1,0,8,27,3.03,0.969,0.109,False,1.0,False,True,2,2
+gemini_d3_r2_08,CCCCCCc1nnc(-c2ccc3ccc4ccc(-c5nnc(CCCCCC)c(CCCCCC)n5)nc4c3n2)nc1CCCCCC,C42H58N8,675.0,10.98,103.1,0,8,22,3.09,0.684,0.107,False,0.711,True,True,2,2
+gemini_d3_r2_09,CCCCCCCCN(CC)C(=O)c1cccc(-c2cccc(C(=O)N(CC)CCCCCCCC)n2)n1,C32H50N4O2,522.8,7.79,66.4,0,2,19,2.58,0.347,0.097,False,0.861,True,True,0,2
+gemini_d3_r2_10,CCCCCCN(CCCCCC)C(=O)COCC(=O)N(CCCCCC)CCCCCC,C28H56N2O3,468.8,6.98,49.9,0,0,24,2.25,0.293,0.017,False,0.4,True,True,0,0

@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+L1_EH-CyMe4-BTP,CCCCC(CC)Cc1cc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)nc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)c1,C35H51N7,569.8,8.24,90.2,0,7,8,4.21,0.521,0.017,False,0.0,True,True,2,1
+L2_iBu4-tBu-BTP,CC(C)Cc1nnc(-c2cc(C(C)(C)C)cc(-c3nnc(CC(C)C)c(CC(C)C)n3)n2)nc1CC(C)C,C31H47N7,517.8,6.88,90.2,0,7,10,3.25,0.444,0.0,False,0.271,True,True,2,1
+L3_asym-Bu2/CyMe4-BTBP,CCCCc1nnc(-c2cccc(-c3cccc(-c4nnc5c(n4)C(C)(C)CCC5(C)C)n3)n2)nc1CCCC,C32H40N8,536.7,6.88,103.1,0,8,9,3.39,0.69,0.018,False,0.491,True,True,2,2
+L4_asym-Pr2/CyMe4-BTP,CCCc1nnc(-c2cccc(-c3nnc4c(n3)C(C)(C)CCC4(C)C)n2)nc1CCC,C25H33N7,431.6,5.04,90.2,0,7,6,3.31,0.7,0.019,False,0.841,True,True,2,1
+L5_Pn4-BTPhen,CCCCCc1nnc(-c2ccc3ccc4ccc(-c5nnc(CCCCC)c(CCCCC)n5)nc4c3n2)nc1CCCCC,C38H50N8,618.9,9.42,103.1,0,8,18,3.05,0.703,0.0,False,0.48,True,True,2,2
+L6_Np2-bistriazolylpy,CC(C)(C)Cc1nnc(-c2cccc(-c3nnc(CC(C)(C)C)[nH]3)n2)[nH]1,C19H27N7,353.5,3.83,96.0,2,7,4,3.47,0.462,0.0,False,0.241,True,True,0,1
+L7_EH-bispyrazolylpy,CCCCC(CC)Cc1cc(-c2cccc(-c3cc(CC(CC)CCCC)[nH]n3)n2)n[nH]1,C27H41N5,435.7,7.38,70.2,2,5,14,3.7,0.5,0.0,False,0.379,True,True,0,1
+L8_Oc2-bisbenzimid-py,CCCCCCCCn1c(-c2cccc(-c3nc4ccccc4n3CCCCCCCC)n2)nc2ccccc21,C35H45N5,535.8,9.84,48.5,0,5,16,2.47,0.362,0.0,False,0.286,True,True,0,1
+L9_PyTri-EH,CCCCC(CC)Cn1cc(-c2cccc(-c3cn(CC(CC)CCCC)nn3)n2)nn1,C25H39N7,437.6,6.03,74.3,0,7,14,3.67,0.375,0.0,False,0.48,True,True,0,1
+L10_hemi-BTP-pyrazole,Cn1nc(CC(C)(C)C)cc1-c1cccc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)n1,C25H34N6,418.6,5.27,69.4,0,6,3,3.33,0.571,0.016,False,0.5,True,True,1,1

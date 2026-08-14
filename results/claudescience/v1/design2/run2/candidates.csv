@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+"phen-2,9-dicarboxamide (2-EH)",CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1ccc2ccc3ccc(C(=O)N(CC(CC)CCCC)CC(CC)CCCC)nc3c2n1,C46H74N4O2,715.1,12.53,66.4,0,2,26,4.24,0.634,0.0,False,0.0,True,True,0,2
+"phen-2,9-dicarboxamide (Cy/Hx)",CCCCCCN(C(=O)c1ccc2ccc3ccc(C(=O)N(CCCCCC)C4CCCCC4)nc3c2n1)C1CCCCC1,C38H54N4O2,598.9,9.49,66.4,0,2,14,2.88,0.622,0.022,False,0.444,True,True,0,2
+"bipy-6,6'-dicarboxamide",CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2cccc(C(=O)N(CC(CC)CCCC)CC(CC)CCCC)n2)n1,C44H74N4O2,691.1,11.89,66.4,0,2,27,4.18,0.5,0.0,False,0.705,True,True,0,2
+4-Me-dipicolinamide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cc(C)cc(C(=O)N(CC(CC)CCCC)CC(CC)CCCC)n1,C40H73N3O2,628.0,11.14,53.5,0,1,26,4.14,0.564,0.0,False,0.659,True,True,0,1
+CyMe4-triazinyl-picolinamide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2nnc3c(n2)C(C)(C)CCC3(C)C)n1,C33H53N5O,535.8,8.16,71.9,0,4,14,4.03,0.482,0.014,False,0.673,True,True,1,1
+CyMe4-triazinyl-phen-amide,CCCCCCCCN(CCCCCCCC)C(=O)c1ccc2ccc3ccc(-c4nnc5c(n4)C(C)(C)CCC5(C)C)nc3c2n1,C40H56N6O,636.9,10.15,84.8,0,5,16,3.31,0.615,0.015,False,0.559,True,True,1,2
+triazolyl-picolinamide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2cn(CC(C)(C)C)nn2)n1,C29H49N5O,483.7,7.26,63.9,0,4,15,3.76,0.39,0.0,False,0.704,True,True,0,1
+bis(triazolyl)pyridine-4-amide,CCCCCCCCN(CCCCCCCC)C(=O)c1cc(-c2cn(CC(C)(C)C)nn2)nc(-c2cn(CC(C)(C)C)nn2)c1,C36H60N8O,620.9,8.85,94.6,0,7,19,3.33,0.483,0.0,False,0.493,True,True,0,1
+pyrazolyl-picolinamide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-n2nc(C(C)(C)C)cc2C)n1,C30H50N4O,482.8,7.75,51.0,0,3,14,3.58,0.39,0.0,False,0.586,True,True,0,1
+phosphoryl-picolinamide,CCCCCCCCN(CCCCCCCC)C(=O)c1cccc(P(=O)(c2ccccc2)c2ccccc2)n1,C34H47N2O2P,546.7,7.88,50.3,0,1,18,2.81,0.604,0.0,False,0.404,True,True,0,1

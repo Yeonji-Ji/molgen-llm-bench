@@ -1,0 +1,11 @@
+name,canonical_smiles,formula,MW,MolLogP,TPSA,HBD,arom_N,rot_bonds,SA_score,max_sim_exp,min_sim_exp,dup_of_exp,max_sim_internal,crit_sim_exp_0.25_0.85,crit_logP_gt3,n_triazine_rings,n_pyridine_rings
+L1_DAPhen_EH_Bu,CCCCC(CC)CN(CCCC)C(=O)c1ccc2ccc3ccc(C(=O)N(CCCC)CC(CC)CCCC)nc3c2n1,C38H58N4O2,602.9,9.7,66.4,0,2,20,3.71,0.438,0.074,False,0.0,True,True,0,2
+L3_PyDA_EH_phenyl,CCCCC(CC)CN(C(=O)c1cccc(C(=O)N(CC(CC)CCCC)c2ccccc2)n1)c1ccccc1,C35H47N3O2,541.8,8.81,53.5,0,1,16,3.5,0.38,0.09,False,0.509,True,True,0,1
+L4_Triazinyl_picolinamide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2nnc(CCC)c(CCC)n2)n1,C31H51N5O,509.8,7.71,71.9,0,4,18,3.76,0.51,0.137,False,0.5,True,True,1,1
+L6_Bipy_dicarboxamide,CCCCC(CC)CN(CCCC)C(=O)c1cccc(-c2cccc(C(=O)N(CCCC)CC(CC)CCCC)n2)n1,C36H58N4O2,578.9,9.06,66.4,0,2,21,3.65,0.429,0.088,False,0.723,True,True,0,2
+L7_Phen_amide_CyMe4Tz,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1ccc2ccc3ccc(-c4nnc5c(n4)C(C)(C)CCC5(C)C)nc3c2n1,C40H56N6O,636.9,9.86,84.8,0,5,14,4.21,0.387,0.103,False,0.59,True,True,1,2
+L8_Py_bisacetamide,CCCCCCN(CCCCCC)C(=O)Cc1cccc(CC(=O)N(CCCCCC)CCCCCC)n1,C33H59N3O2,529.9,8.15,53.5,0,1,24,2.53,0.286,0.083,False,0.377,True,True,0,1
+L9_Triazolyl_py_amide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2cn(CC(C)(C)C)nn2)n1,C29H49N5O,483.7,7.26,63.9,0,4,15,3.76,0.339,0.105,False,0.638,True,True,0,1
+L10_Bzimid_py_amide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2nc3ccccc3n2CC(C)(C)C)n1,C34H52N4O,532.8,9.02,51.0,0,3,15,3.62,0.323,0.111,False,0.632,True,True,0,1
+L11_Bipy_Tz_amide,CCCCC(CC)CN(CCCC)C(=O)c1cccc(-c2cccc(-c3nnc4c(n3)C(C)(C)CCC4(C)C)n2)n1,C34H48N6O,556.8,7.8,84.8,0,5,12,3.73,0.492,0.173,False,0.706,True,True,1,2
+L12_Pyrazolyl_py_amide,CCCCC(CC)CN(CC(CC)CCCC)C(=O)c1cccc(-c2cc(C(C)(C)C)n(CC(C)(C)C)n2)n1,C34H58N4O,538.9,9.16,51.0,0,3,15,3.85,0.328,0.103,False,0.667,True,True,0,1
